@@ -1,6 +1,6 @@
 const express =require("express");
 const app=express();
-const port=process.env.appPORT || 6700;
+const port=process.env.PORT || 6700;
 
 //to tell app,where static files -html/css/js are stored
 app.use(express.static("Frontend"));
